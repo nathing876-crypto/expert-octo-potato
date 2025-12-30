@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sponsorship Form</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+    }
+    th, td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .section-title {
+        background-color: #1aa3d9;
+        color: white;
+        padding: 10px;
+        width: 80%;
+        margin: 20px auto;
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="section-title">Sponsorship</div>
+
+<table>
+    <tr>
+        <th>Event Sponsored</th>
+        <th>Sponsorship Tier</th>
+        <th>VIP Pass</th>
+    </tr>
+
+    <!-- Row 1 -->
+    <tr>
+        <td>
+            <select>
+                <option>Choose an item</option>
+                <option>Main Stage</option>
+                <option>Food Court</option>
+                <option>Kids Zone</option>
+            </select>
+        </td>
+        <td>
+            Tier 1 <input type="checkbox" name="tier1_1">
+            Tier 2 <input type="checkbox" name="tier2_1">
+        </td>
+        <td>
+            <select>
+                <option>Choose an item</option>
+                <option>2 Passes</option>
+                <option>4 Passes</option>
+                <option>6 Passes</option>
+            </select>
+        </td>
+    </tr>
+
+    <!-- Row 2 -->
+    <tr>
+        <td>
+            <select>
+                <option>Choose an item</option>
+                <option>Main Stage</option>
+                <option>Food Court</option>
+                <option>Kids Zone</option>
+            </select>
+        </td>
+        <td>
+            Tier 1 <input type="checkbox" name="tier1_2">
+            Tier 2 <input type="checkbox" name="tier2_2">
+        </td>
+        <td>
+            <select>
+                <option>Choose an item</option>
+                <option>2 Passes</option>
+                <option>4 Passes</option>
+                <option>6 Passes</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+---
+
+Terms & Conditions Acceptance 
+
+<div style="width:80%; margin:auto; margin-top:30px;">
+    <p><strong>Do you accept these terms and conditions?</strong></p>
+
+    <label>
+        <input type="radio" name="terms" value="yes"> Yes
+    </label>
+
+    <label style="margin-left:20px;">
+        <input type="radio" name="terms" value="no"> No
+    </label>
+
+    <br><br>
+
+    <label>
+        <strong>Signature of Owner / CEO:</strong><br>
+        <input type="text" style="width:300px;">
+    </label>
+
+    <br><br>
+
+    <label>
+        <strong>Date:</strong><br>
+        <input type="date">
+    </label>
+</div>
